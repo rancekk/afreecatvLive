@@ -52,8 +52,8 @@ def start():
     af = afreecatvLiveCollect()
 
     e = initTS()
-    url = "http://play.afreecatv.com/dmsco39/225998901"
-    print(af.checkLiveRoomIsDancing(url, e) == 1)
+    url = "http://play.afreecatv.com/rlrlvkvk123/226010342"
+    print(af.checkLiveRoomIsDancing(url, e))
     # print(af.getHummans(imagePath, e))
     # print("\r\n")
     # for bj in list1:
