@@ -1,0 +1,3 @@
+class BJ:
+    bid = ""
+    bno = ""
