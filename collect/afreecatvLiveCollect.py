@@ -35,7 +35,8 @@ class afreecatvLiveCollect:
 
     def getViewUrl(self, bno):
         body = self.request.get_main(
-            url="http://resourcemanager.afreecatv.com:9090/broad_stream_assign.html?return_type=gcp_cdn&use_cors=true&cors_origin_url=play.afreecatv.com&broad_key=" + bno + "-common-hd-hls",
+            url="http://resourcemanager.afreecatv.com:9090/broad_stream_assign.html?return_type=gcp_cdn&use_co"
+                "rs=true&cors_origin_url=play.afreecatv.com&broad_key=" + bno + "-common-hd-hls",
             method="get", )
         body = json.loads(body)
 

@@ -4,8 +4,8 @@ import json
 
 class requestsUtils:
     proxies = {
-        'http': '127.0.0.1:1081',
-        'https': '127.0.0.1:1081'
+        'http': '127.0.0.1:1080',
+        'https': '127.0.0.1:1080'
     }
 
     def post_main(self, method, url, data, header):
